@@ -9,46 +9,53 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body style="background-image: url(ep_naturalwhite.png)">
-    <header style="font-family: 'Georgia', Times, Times New Roman, serif; 
-    height: 100px; background-color: #ffffff; color: #ffffff; margin-bottom: 40px; 
-    border: 0px; border-bottom: 1px; border-style: solid; border-color: #cccccc">
-        <div class="m-auto" style="width: 960px;">
-            <h1 class="text-lg float-left" style="width: 200px; height: 100px; background-color: #4aaaa5; padding: 22px;">Louis Vo</h1>
-            <div class="float-right" 
-            style="font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; position: relative; top: 31px;">
-                <a class="btn btn-link" href="index.html" style="color: #777777">About</a>
-                <a class="btn btn-link" href="portfolio.html" style="color: #777777">Portfolio</a>
-                <a class="btn btn-link" href="contact.html" style="color: #777777">Contact</a>
-            </div>
-        </div>
+    <header  class="sticky-top border-bottom mb-4" style="background-color: #ffffff; border-color: #cccccc">
+        <div class="m-auto py-4" style="max-width: 960px;">
+            <h1 class="float-left p-4 position-relative" 
+                style="color: #ffffff; background-color: #4aaaa5; top: -32px; font-family: 'Georgia', Times, Times New Roman, serif;"
+                >Louis Vo</h1>
+    
+            <ul class="nav justify-content-end" 
+                style="font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: #777777">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" style="color: #777777">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="contact.html" style="color: #777777">Contact</a>
+                </li>
+            </ul>
 
+        </div>
     </header>
     
-    <div class="clearfix" style="margin: auto; width: 960px; background-color: #ffffff; padding: 20px;
-    border-style: solid; border-width: 1px; border-color: #dddddd">
-        <h2 style="color: #4aaaa5; margin-bottom: 20px; 
-        font-family: 'Georgia', Times, Times New Roman, serif;">About Me</h2>
+    
 
-        <hr style="border-width: 3px">
+    <div class="jumbotron jumbotron-fluid clearfix m-auto border p-4" 
+        style="max-width: 960px; background-color: #ffffff; color: #4aaaa5; border-color: #dddddd">
+        
+        <h2 class="display-5" style="font-family: 'Georgia', Times, Times New Roman, serif;"
+        >About Me</h2>
 
-        <div>
-            <img class="mr-3 float-left" src="profile.jpeg" alt="Generic placeholder image" 
-            style="height: 250px; width: 250px;">
-            <p class="media-body"style="color: #777777; font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; ">
-                    Cras sit amet nibh libero, in gravida nulla. 
-                    Nulla vel metus scelerisque ante sollicitudin. 
-                    Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
-                    Fusce condimentum nunc ac nisi vulputate fringilla. 
-                    Donec lacinia congue felis in faucibus.
-            </p>
-        </div>
+        <hr class="my-4">
+        
+        <img class="mr-3 float-left" src="profile.jpeg" alt="Generic placeholder image" 
+        style="height: 250px; width: 250px;">
+        
+        <p style="font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; color: #666666"
+        >It uses utility classes for typography and spacing to space content out within the larger container.</p>
     </div>
 
 
-    <footer style="margin-top: 80px; height: 200px; border: 0px; border-top: 10px; border-style: solid; 
+    <footer class="sticky-top" style="margin-top: 80px; height: 200px; border: 0px; border-top: 10px; border-style: solid; 
     border-color: #4aaaa5; background-color: #666666">
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     
 </body>
 </html>
